@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ListaLigadaPecas
+comment0.text=\r\n\ Implementa\ uma\ lista\ duplamente\ ligada\ para\ representar\ a\ mesa\ de\ um\ jogo\ de\ domin\u00F3.\r\n\ Permite\ adicionar\ pe\u00E7as\ nas\ duas\ extremidades\ (esquerda\ e\ direita)\ da\ corrente\ de\ domin\u00F3s.\r\n
+comment1.params=peca
+comment1.target=void\ adicionarNaEsquerda(jogodomino.PecaDomino)
+comment1.text=\r\n\ Adiciona\ uma\ pe\u00E7a\ de\ domin\u00F3\ na\ extremidade\ esquerda\ da\ mesa.\r\n\r\n\ @param\ peca\ A\ pe\u00E7a\ de\ domin\u00F3\ a\ ser\ adicionada.\r\n
+comment2.params=peca
+comment2.target=void\ adicionarNaDireita(jogodomino.PecaDomino)
+comment2.text=\r\n\ Adiciona\ uma\ pe\u00E7a\ de\ domin\u00F3\ na\ extremidade\ direita\ da\ mesa.\r\n\r\n\ @param\ peca\ A\ pe\u00E7a\ de\ domin\u00F3\ a\ ser\ adicionada.\r\n
+comment3.params=
+comment3.target=int\ getValorEsquerdo()
+comment3.text=\r\n\ Retorna\ o\ valor\ num\u00E9rico\ da\ extremidade\ esquerda\ da\ corrente\ de\ domin\u00F3s.\r\n\r\n\ @return\ O\ valor\ do\ lado\ esquerdo\ da\ primeira\ pe\u00E7a,\ ou\ -1\ se\ a\ mesa\ estiver\ vazia.\r\n
+comment4.params=
+comment4.target=int\ getValorDireito()
+comment4.text=\r\n\ Retorna\ o\ valor\ num\u00E9rico\ da\ extremidade\ direita\ da\ corrente\ de\ domin\u00F3s.\r\n\r\n\ @return\ O\ valor\ do\ lado\ direito\ da\ \u00FAltima\ pe\u00E7a,\ ou\ -1\ se\ a\ mesa\ estiver\ vazia.\r\n
+comment5.params=
+comment5.target=void\ imprimirMesa()
+comment5.text=\r\n\ Imprime\ uma\ representa\u00E7\u00E3o\ textual\ das\ pe\u00E7as\ na\ mesa\ no\ console.\r\n\ \u00DAtil\ para\ depura\u00E7\u00E3o.\r\n
+comment6.params=
+comment6.target=java.util.List\ toStringList()
+comment6.text=\r\n\ Converte\ a\ lista\ de\ pe\u00E7as\ em\ uma\ lista\ de\ suas\ representa\u00E7\u00F5es\ como\ String.\r\n\r\n\ @return\ Uma\ lista\ de\ Strings,\ onde\ cada\ string\ representa\ uma\ pe\u00E7a\ na\ mesa.\r\n
+comment7.params=
+comment7.target=java.util.List\ getPecas()
+comment7.text=\r\n\ Retorna\ todas\ as\ pe\u00E7as\ da\ mesa\ como\ uma\ lista\ de\ objetos\ PecaDomino.\r\n\ Este\ m\u00E9todo\ \u00E9\ \u00FAtil\ para\ renderizar\ as\ pe\u00E7as\ na\ interface\ gr\u00E1fica.\r\n\r\n\ @return\ Uma\ {@code\ List<PecaDomino>}\ contendo\ todas\ as\ pe\u00E7as\ na\ ordem\ em\ que\ est\u00E3o\ na\ mesa.\r\n
+numComments=8

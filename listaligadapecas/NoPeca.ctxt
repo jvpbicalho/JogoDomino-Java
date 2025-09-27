@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=NoPeca
+comment0.text=\r\n\ Representa\ um\ n\u00F3\ em\ uma\ lista\ duplamente\ ligada\ de\ pe\u00E7as\ de\ domin\u00F3.\r\n\ Cada\ n\u00F3\ cont\u00E9m\ a\ pe\u00E7a\ de\ domin\u00F3\ e\ refer\u00EAncias\ para\ o\ n\u00F3\ anterior\ e\ o\ pr\u00F3ximo\ na\ lista.\r\n
+comment1.params=peca
+comment1.target=NoPeca(jogodomino.PecaDomino)
+comment1.text=\r\n\ Constr\u00F3i\ um\ novo\ n\u00F3\ com\ a\ pe\u00E7a\ de\ domin\u00F3\ especificada.\r\n\r\n\ @param\ peca\ A\ pe\u00E7a\ de\ domin\u00F3\ a\ ser\ armazenada\ neste\ n\u00F3.\r\n
+comment2.params=
+comment2.target=jogodomino.PecaDomino\ getPeca()
+comment2.text=\r\n\ Retorna\ a\ pe\u00E7a\ de\ domin\u00F3\ contida\ neste\ n\u00F3.\r\n\r\n\ @return\ A\ inst\u00E2ncia\ de\ PecaDomino.\r\n
+comment3.params=
+comment3.target=NoPeca\ getProximo()
+comment3.text=\r\n\ Retorna\ o\ pr\u00F3ximo\ n\u00F3\ na\ lista.\r\n\r\n\ @return\ O\ pr\u00F3ximo\ NoPeca,\ ou\ null\ se\ este\ for\ o\ \u00FAltimo\ n\u00F3.\r\n
+comment4.params=proximo
+comment4.target=void\ setProximo(NoPeca)
+comment4.text=\r\n\ Define\ o\ pr\u00F3ximo\ n\u00F3\ na\ lista.\r\n\r\n\ @param\ proximo\ O\ n\u00F3\ a\ ser\ definido\ como\ o\ pr\u00F3ximo.\r\n
+comment5.params=
+comment5.target=NoPeca\ getAnterior()
+comment5.text=\r\n\ Retorna\ o\ n\u00F3\ anterior\ na\ lista.\r\n\r\n\ @return\ O\ NoPeca\ anterior,\ ou\ null\ se\ este\ for\ o\ primeiro\ n\u00F3.\r\n
+comment6.params=anterior
+comment6.target=void\ setAnterior(NoPeca)
+comment6.text=\r\n\ Define\ o\ n\u00F3\ anterior\ na\ lista.\r\n\r\n\ @param\ anterior\ O\ n\u00F3\ a\ ser\ definido\ como\ o\ anterior.\r\n
+numComments=7

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PecaDomino
+comment0.text=\r\n\ Representa\ uma\ \u00FAnica\ pe\u00E7a\ de\ domin\u00F3,\ com\ um\ lado\ esquerdo\ e\ um\ lado\ direito.\r\n\ Cada\ lado\ tem\ um\ valor\ num\u00E9rico.\r\n
+comment1.params=ladoEsquerdo\ ladoDireito
+comment1.target=PecaDomino(int,\ int)
+comment1.text=\r\n\ Constr\u00F3i\ uma\ nova\ pe\u00E7a\ de\ domin\u00F3\ com\ os\ valores\ especificados.\r\n\r\n\ @param\ ladoEsquerdo\ O\ valor\ do\ lado\ esquerdo.\r\n\ @param\ ladoDireito\ \ O\ valor\ do\ lado\ direito.\r\n
+comment2.params=valor
+comment2.target=boolean\ podeConectar(int)
+comment2.text=\r\n\ Verifica\ se\ esta\ pe\u00E7a\ pode\ se\ conectar\ a\ um\ determinado\ valor\ na\ mesa.\r\n\ Uma\ conex\u00E3o\ \u00E9\ poss\u00EDvel\ se\ um\ dos\ lados\ da\ pe\u00E7a\ for\ igual\ ao\ valor\ fornecido.\r\n\r\n\ @param\ valor\ O\ valor\ na\ extremidade\ da\ mesa\ para\ conectar.\r\n\ @return\ true\ se\ a\ pe\u00E7a\ puder\ ser\ conectada,\ false\ caso\ contr\u00E1rio.\r\n
+comment3.params=
+comment3.target=void\ inverter()
+comment3.text=\r\n\ Inverte\ os\ valores\ dos\ lados\ da\ pe\u00E7a.\r\n\ O\ lado\ esquerdo\ se\ torna\ o\ direito\ e\ vice-versa.\r\n
+comment4.params=
+comment4.target=int\ getLadoEsquerdo()
+comment4.text=\r\n\ Retorna\ o\ valor\ do\ lado\ esquerdo\ da\ pe\u00E7a.\r\n\r\n\ @return\ O\ valor\ do\ lado\ esquerdo.\r\n
+comment5.params=
+comment5.target=int\ getLadoDireito()
+comment5.text=\r\n\ Retorna\ o\ valor\ do\ lado\ direito\ da\ pe\u00E7a.\r\n\r\n\ @return\ O\ valor\ do\ lado\ direito.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Retorna\ uma\ representa\u00E7\u00E3o\ em\ String\ da\ pe\u00E7a\ no\ formato\ "[X|Y]".\r\n\r\n\ @return\ A\ string\ formatada\ da\ pe\u00E7a.\r\n
+numComments=7

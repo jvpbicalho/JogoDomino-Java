@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Jogador
+comment0.text=\r\n\ Representa\ um\ jogador\ no\ jogo\ de\ domin\u00F3.\r\n\ Cada\ jogador\ tem\ um\ nome\ e\ uma\ "m\u00E3o"\ de\ pe\u00E7as.\r\n
+comment1.params=nome
+comment1.target=Jogador(java.lang.String)
+comment1.text=\r\n\ Constr\u00F3i\ um\ novo\ jogador\ com\ um\ nome\ e\ uma\ m\u00E3o\ vazia.\r\n\r\n\ @param\ nome\ O\ nome\ do\ jogador.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNome()
+comment2.text=\r\n\ Retorna\ o\ nome\ do\ jogador.\r\n\r\n\ @return\ O\ nome\ do\ jogador.\r\n
+comment3.params=
+comment3.target=java.util.List\ getMao()
+comment3.text=\r\n\ Retorna\ a\ lista\ de\ pe\u00E7as\ na\ m\u00E3o\ do\ jogador.\r\n\r\n\ @return\ Uma\ lista\ de\ {@code\ PecaDomino}.\r\n
+comment4.params=peca
+comment4.target=void\ adicionarPeca(PecaDomino)
+comment4.text=\r\n\ Adiciona\ uma\ pe\u00E7a\ \u00E0\ m\u00E3o\ do\ jogador.\r\n\r\n\ @param\ peca\ A\ pe\u00E7a\ a\ ser\ adicionada.\r\n
+comment5.params=peca
+comment5.target=void\ removerPeca(PecaDomino)
+comment5.text=\r\n\ Remove\ uma\ pe\u00E7a\ da\ m\u00E3o\ do\ jogador.\r\n\r\n\ @param\ peca\ A\ pe\u00E7a\ a\ ser\ removida.\r\n
+comment6.params=valorEsquerdo\ valorDireito
+comment6.target=boolean\ podeJogar(int,\ int)
+comment6.text=\r\n\ Verifica\ se\ o\ jogador\ tem\ alguma\ pe\u00E7a\ que\ possa\ ser\ jogada,\r\n\ dadas\ as\ extremidades\ livres\ da\ mesa.\r\n\r\n\ @param\ valorEsquerdo\ O\ valor\ na\ extremidade\ esquerda\ da\ mesa.\r\n\ @param\ valorDireito\ \ O\ valor\ na\ extremidade\ direita\ da\ mesa.\r\n\ @return\ true\ se\ o\ jogador\ tiver\ uma\ jogada\ poss\u00EDvel,\ false\ caso\ contr\u00E1rio.\r\n
+numComments=7
